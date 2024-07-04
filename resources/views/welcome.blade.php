@@ -1,15 +1,38 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<x-layout>
+    <x-slot:title>
+        Selamat Datang
+    </x-slot>
+    {{-- NAVBAR --}}
+    <x-navbar />
+    {{-- END NAVBAR --}}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    @vite('resources/css/app.css')
-    <title>Bojongloa</title>
-</head>
+    {{-- BODY --}}
+    <div class="mx-4">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nulla quisquam veritatis, amet
+            voluptates explicabo excepturi aperiam vitae! Tempore dignissimos veniam eveniet. Iure aspernatur, quae
+            dolores hic quod ex vitae.
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nulla quisquam veritatis, amet
+            voluptates explicabo excepturi aperiam vitae! Tempore dignissimos veniam eveniet. Iure aspernatur, quae
+            dolores hic quod ex vitae.
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nulla quisquam veritatis, amet
+            voluptates explicabo excepturi aperiam vitae! Tempore dignissimos veniam eveniet. Iure aspernatur, quae
+            dolores hic quod ex vitae.
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nulla quisquam veritatis, amet
+            voluptates explicabo excepturi aperiam vitae! Tempore dignissimos veniam eveniet. Iure aspernatur, quae
+            dolores hic quod ex vitae.
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nulla quisquam veritatis, amet
+            voluptates explicabo excepturi aperiam vitae! Tempore dignissimos veniam eveniet. Iure aspernatur, quae
+            dolores hic quod ex vitae.
+        </div>
+    </div>
+    {{-- END BODY --}}
 
-<body class="bg-slate-200 antialiased scroll-smooth">
-    hellow Bojongloa
-</body>
+    {{-- BOTTOM NAV --}}
+    <x-bottomnav />
+    {{-- END BOTTOM NAV --}}
 
-</html>
+</x-layout>
