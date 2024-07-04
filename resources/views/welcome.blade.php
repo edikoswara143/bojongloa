@@ -9,7 +9,7 @@
 </head>
 
 <body class="bg-slate-200 antialiased scroll-smooth">
-    hellow word
+    hellow Bojongloa
 </body>
 
 </html>
